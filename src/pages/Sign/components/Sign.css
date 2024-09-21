@@ -1,0 +1,82 @@
+/* Sign-up Component Styling */
+.sign-container {
+  font-family: 'ElMessiri', sans-serif;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px; /* Adjust as needed to create space from the navbar */
+}
+
+.sign-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #020258;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sign-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.sign-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.sign-input:focus {
+  border-color: #020258;
+  outline: none;
+}
+
+.sign-button {
+  padding: 12px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #020258;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-button:hover {
+  background-color: #1a1aff;
+}
+
+.sign-input[type="file"] {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.sign-input[type="file"]::-webkit-file-upload-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #020258;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #1a1aff;
+}
